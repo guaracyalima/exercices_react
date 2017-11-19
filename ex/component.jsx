@@ -1,6 +1,8 @@
 import React from 'react'
 
-//o parentereses diz e que è uma expressao que retorna implicitamente usando aerofunction
-export default  () => (
-  <h1>Firist Component!</h1>
-)
+const Primeiro = props => (<h1>Firist Component</h1>)
+const Segundo = props => (<h1>Secondary Component</h1>)
+
+export { Primeiro, Segundo }
+
+//pode ser exportado direto na declaracao de constante
